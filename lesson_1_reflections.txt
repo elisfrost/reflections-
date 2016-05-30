@@ -1,0 +1,35 @@
+Lesson 1 Reflections 
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped me hone in on the differences so I didn't have to go through the files line by line and compare them. Of course, when you make changes to a file there is a reason for doing that but you can also introduce unwanted changes like typos accidentally. Comparing the differences allowed me to quickly see if there was a change that I didn't mean to make. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would allow me to see changes over time and to have a record to trace back any bugs in the program. It would also mean that I wouldn't have to manually search as much or have to try to remember exactly what changes I made. I could spend more time correcting my mistakes instead of having to search for them. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Manually choosing when you commit ensures that you are intentional about the changes you want to make this time around. You know that you want these specific modifications in the permanent record. When your changes are automatically saved, you're not as intentional. Also, it's harder to go back and see what changes were made when. Of course, when changes are automatically saved, you avoid the potentially disastrous consequences of losing important new work before you have a chance to save. Choosing when you save ensures that there’s some logical reason for this new version. If versions are saved automatically, it’s harder to track significant and substantive changes. There could be weird breakpoints between versions that wouldn’t be there if you saved manually. Saving automatically can ensure that you don’t go too long without saving. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git probably allows saving multiple files in one commit because Git is primarily used as a development tool and when you are developing, there are often several files that work together to create the finished project, like the HTML, CSS, and JS files for a website. You're making these changes often in tandem to add functionality to a site so it makes sense to commit them together. When it comes to Google Docs and other systems, the connections between files aren't often as clear. 
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You use git log to see a complete history of all of the files in a repository with the command git log followed by the name of the repository. Something that surprised/confused me is that the log goes chronologically with the most recent change at the top. I guess tat makes sense from a workflow standpoint because if you’re trying to investigate a bug it might make sense to start from the most recent changes instead of going back to changes that happened a long time ago. If those haven’t caused problems yet it’s likely they’re not the source of the bug. I just ned to remember that when doing a git diff. Git diff allows you to see the differences between two versions. I wonder if you could use it for more than two. It might get confusing. When you add the colour features, the green text shows you what was added while the red text shows you what was deleted in that update. 
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You know that you can always go back to the previous version. You also know that you can quickly and easily compare the versions of a file and find the mistakes. No mistake is fatal and you can always recover from failures. This makes you more confident because a mistake doesn't have horrible consequences. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try to use it for all of my school projects and maybe to collaborate with other people on projects. I know that it is the industry standard when it comes to working as a professional developer so it's time that I get comfortable with it. It can also be used as a portfolio of my work and I can chart my progress over time which is pretty cool. I'm a little freaked out about learning the lingo and figuring it all out but I'm now seeing how it could make things a lot easier and more fun to collaborate. 
