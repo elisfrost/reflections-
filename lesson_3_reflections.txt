@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+You'd probably want to use a remote repository when you're working with other people and you want to share updates with them.
+A remote respository makes it easier to have one place for all of the commits and changes. I think if I were working on my own
+using a remote respository wouldn't be as big of a deal because I always have access to my own machine. However, maybe the 
+information is safer in a remote repository? Also, adding items to a public repository means that others who may not be directly
+involved with your projects can make comments and play around with your code. 
