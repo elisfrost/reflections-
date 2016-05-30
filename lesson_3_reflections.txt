@@ -4,3 +4,6 @@ A remote respository makes it easier to have one place for all of the commits an
 using a remote respository wouldn't be as big of a deal because I always have access to my own machine. However, maybe the 
 information is safer in a remote repository? Also, adding items to a public repository means that others who may not be directly
 involved with your projects can make comments and play around with your code. 
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Because that way you have more control over pulling changes. You might not want to have all of the changes on your local machine because it takes up storage and you might not be sure you want to keep all of them anyway. Maybe some of the chnages are experimental and you're not sure if they're going to end up being part of your final product. 
