@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+When you initialize a repository, you create an empty area where all of your files will be added. Until then, you'll be working with files on your hard drive. When you initialize a repository it will show the names of the files but they haven't actually been added in a commit. In order to start really working with the version control features of git, you'll need to perform a commit. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is like an intermediary between the working directory and the repository. Items in the staging area haven't really been committed to the repository yet but they're on their way. The value of the staging area is that it allows you to control your first commit. You can break up your files into commits that make logical sense, ie one commit per logical change. You can also add a specific note to the commit which you wouldn't be able to do if Git just created the first commit for you. 
